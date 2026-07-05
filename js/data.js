@@ -5,7 +5,7 @@
 
 const SITE = {
   name: "Vaibhav Vinod Ingle",
-  tagline: "Civil Engineer & Researcher — sustainable construction materials, UHPFRC, and 3D-printed concrete",
+  tagline: "Civil Engineer & Researcher - advanced cementitious composites, supplementary cementitious materials (SCMs), sustainable construction materials, ultra-high-performance fiber-reinforced concrete (UHPFRC), biochar- and hemp fiber-reinforced composites, soil–cement systems, and additive manufacturing of concrete (3D concrete printing)",
   email: "inglevaibhav02@gmail.com",
   universityEmail: "inglev@oregonstate.edu",
   phone: "+1 (541) 908-4172",
