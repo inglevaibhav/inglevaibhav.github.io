@@ -5,7 +5,7 @@
 
 const SITE = {
   name: "Vaibhav Vinod Ingle",
-  tagline: "Civil Engineer & Researcher - advanced cementitious composites, supplementary cementitious materials (SCMs), sustainable construction materials, ultra-high-performance fiber-reinforced concrete (UHPFRC), biochar- and hemp fiber-reinforced composites, soil–cement systems, additive manufacturing of concrete (3D concrete printing), and Acoustic Emission Technique (AET)",
+  tagline: "Civil Engineer & Researcher — advanced cementitious composites, supplementary cementitious materials (SCMs), sustainable construction materials, ultra-high-performance fiber-reinforced concrete (UHPFRC), biochar- and hemp fiber-reinforced composites, soil–cement systems, additive manufacturing of concrete (3D concrete printing), and Acoustic Emission Technique (AET)",
   email: "inglevaibhav02@gmail.com",
   universityEmail: "inglev@oregonstate.edu",
   phone: "+1 (541) 908-4172",
@@ -28,7 +28,7 @@ const EXPERIENCE = [
     points: [
       "Executing research on soil-cement-based 3D printing (extrusion additive construction), generating data on mix design, fresh-state rheology, and geotechnical performance.",
       "Developing and optimizing soil-binder mixture designs for 3D-printed infrastructure, funded by ERDC.",
-      "Developing soil-binder-biochar and hemp fibre mixture designs and prototyping for improved acoustic/thermal performance of mass timber components using forestry waste.",
+      "Developing soil-binder-biochar and hemp fiber mixture designs and prototyping for improved acoustic/thermal performance of mass timber components using forestry waste.",
       "Formulating hypotheses, designing controlled experiments, and independently managing the full research pipeline from material selection to data analysis and scientific writing.",
       "Targeting 1 journal submission from MS thesis; expected graduation September 2026.",
     ],
@@ -77,8 +77,8 @@ const PROJECTS = [
     link: "#",
   },
   {
-    title: "Soil-Binder-Biochar & Hemp Fibre Mass Timber Components",
-    description: "Prototype design using forestry waste (biochar, hemp fibre) to improve acoustic and thermal performance of mass timber components.",
+    title: "Soil-Binder-Biochar & Hemp Fiber Mass Timber Components",
+    description: "Prototype design using forestry waste (biochar, hemp fiber) to improve acoustic and thermal performance of mass timber components.",
     tags: ["Sustainable Materials", "Biochar", "Mass Timber"],
     link: "#",
   },
@@ -219,5 +219,5 @@ const GALLERY = [
   { src: "assets/images/gallery/i-love-osu-print.jpg", caption: "Soil-Cement 3D-printed lettering — additive construction demo" },
   { src: "assets/images/gallery/3d-print-workshop-demo.jpg", caption: "Presenting 3D printing demo and samples at the OSU Engineering Expo, October 2025" },
   { src: "assets/images/gallery/swinburne-university.jpg", caption: "ASU–Swinburne Workshop on Advances in Concrete 3D Printing, Hawthorn, Australia" },
-  { src: "assets/images/gallery/workshop-dinner.jpg", caption: "With fellow researchers at the workshop dinner-Swinburne University, Australia" },
+  { src: "assets/images/gallery/workshop-dinner.jpg", caption: "With fellow researchers at the workshop dinner — Swinburne University, Australia" },
 ];
