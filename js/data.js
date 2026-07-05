@@ -216,8 +216,8 @@ const ACTIVITIES = [
 ];
 
 const GALLERY = [
-  { src: "assets/images/gallery/i-love-osu-print.jpg", caption: "3D-printed concrete lettering — additive construction demo" },
-  { src: "assets/images/gallery/3d-print-workshop-demo.jpg", caption: "Presenting 3D concrete printing samples at the ASU-Swinburne workshop" },
+  { src: "assets/images/gallery/i-love-osu-print.jpg", caption: "Soil-Cement 3D-printed lettering — additive construction demo" },
+  { src: "assets/images/gallery/3d-print-workshop-demo.jpg", caption: "Presenting 3D printing demo and samples at the OSU Engineering Expo, October 2025" },
   { src: "assets/images/gallery/swinburne-university.jpg", caption: "ASU–Swinburne Workshop on Advances in Concrete 3D Printing, Hawthorn, Australia" },
-  { src: "assets/images/gallery/workshop-dinner.jpg", caption: "With fellow researchers at the workshop dinner" },
+  { src: "assets/images/gallery/workshop-dinner.jpg", caption: "With fellow researchers at the workshop dinner-Swinburne University, Australia" },
 ];
