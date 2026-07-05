@@ -13,8 +13,11 @@ const SITE = {
   github: "https://scholar.google.com/citations?user=o8SdbqoAAAAJ&hl=en",
   resumeFile: "assets/resume.pdf",
   photo: "assets/images/profile.jpg",
-  about:
-    "Civil Engineer with an MS in Civil and Construction Engineering (Research) from Oregon State University (expected Sep 2026), an M.Tech in Structural Engineering, and a B.E. in Civil Engineering, backed by 2 years of hands-on R&D experience in construction materials and structural systems. My work spans mix design and performance evaluation of cement, SCMs, UHPFRC, fibers (steel, hemp), biochar, 3D-printed concrete, and soil-cement systems, with testing aligned to ASTM/EN/ISO standards and NDT techniques. Author of 5 peer-reviewed publications (3 first-author) with 30+ citations. Seeking a full-time Civil/Structural Engineer role to bring this multi-degree academic background and applied research experience to real-world construction and infrastructure projects.",
+  about: [
+    "Civil Engineer with an M.S. in Civil and Construction Engineering (Research) from Oregon State University, USA (expected September 2026), an M.Tech. in Structural Engineering, and a B.E. in Civil Engineering, complemented by over two years of research and development experience in advanced construction materials and structural systems at CSIR-Structural Engineering Research Centre, India.",
+    "Expertise includes the design, characterization, and performance evaluation of cementitious materials, supplementary cementitious materials (SCMs), ultra-high-performance fiber-reinforced concrete (UHPFRC), steel and natural fiber-reinforced composites, biochar-modified materials, soil–cement systems, and 3D concrete printing. Experienced in experimental testing and material characterization following ASTM, EN, and ISO standards, with proficiency in non-destructive testing (NDT) techniques and data-driven performance assessment.",
+    "Passionate about translating research into practical engineering solutions that advance resilient, sustainable, and innovative construction and infrastructure.",
+  ],
 };
 
 const EXPERIENCE = [

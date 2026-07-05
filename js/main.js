@@ -2,7 +2,9 @@
 document.getElementById("nav-brand").textContent = SITE.name;
 document.getElementById("hero-name").textContent = SITE.name;
 document.getElementById("hero-tagline").textContent = SITE.tagline;
-document.getElementById("about-text").textContent = SITE.about;
+document.getElementById("about-text").innerHTML = SITE.about
+  .map((para) => `<p>${para}</p>`)
+  .join("");
 document.getElementById("footer-name").textContent = SITE.name;
 document.getElementById("year").textContent = new Date().getFullYear();
 document.getElementById("profile-photo").src = SITE.photo;

@@ -154,6 +154,8 @@ a:hover { text-decoration: underline; }
 }
 
 .about-text { max-width: 720px; font-size: 1.05rem; color: var(--text-muted); }
+.about-text p { margin: 0 0 16px; }
+.about-text p:last-child { margin-bottom: 0; }
 
 /* Timeline */
 .timeline { display: flex; flex-direction: column; gap: 28px; }
