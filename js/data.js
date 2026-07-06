@@ -12,6 +12,7 @@ const SITE = {
   linkedin: "https://www.linkedin.com/in/vaibhav-ingle-bba5a920b/",
   github: "https://scholar.google.com/citations?user=o8SdbqoAAAAJ&hl=en",
   resumeFile: "assets/resume.pdf",
+  resumeVersion: "2026-07-05",
   photo: "assets/images/profile.jpg",
   about: [
     "Civil Engineer with an M.S. in Civil and Construction Engineering (Research) from Oregon State University, USA (expected September 2026), an M.Tech. in Structural Engineering, and a B.E. in Civil Engineering, complemented by over two years of research and development experience in advanced construction materials and structural systems at CSIR-Structural Engineering Research Centre, India.",

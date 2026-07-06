@@ -10,7 +10,7 @@ document.getElementById("year").textContent = new Date().getFullYear();
 document.getElementById("profile-photo").src = SITE.photo;
 
 ["resume-link", "hero-resume"].forEach((id) => {
-  document.getElementById(id).href = SITE.resumeFile;
+  document.getElementById(id).href = `${SITE.resumeFile}?v=${SITE.resumeVersion}`;
 });
 ["hero-linkedin", "contact-linkedin"].forEach((id) => {
   document.getElementById(id).href = SITE.linkedin;
