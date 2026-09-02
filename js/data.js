@@ -207,8 +207,8 @@ const ACTIVITIES = [
   },
   {
     title: "GATE Post-Graduate Stipend (AICTE-MoE Scholarship)",
-    period: "Jan 2021",
-    detail: "National GATE Post Graduate Scholarship awarded to GATE-qualified M.Tech students at recognized institutions (AICTE & Ministry of Education).",
+    period: "Jan 2020 — Aug 2022",
+    detail: "National GATE Post Graduate Scholarship awarded to GATE-qualified M.Tech students at recognized institutions (AICTE & Ministry of Education, India).",
   },
   {
     title: "ASCE Membership",
