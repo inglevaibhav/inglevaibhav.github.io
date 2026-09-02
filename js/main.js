@@ -75,6 +75,7 @@ PUBLICATIONS.forEach((pub) => {
     ${titleHtml}
     <span class="pub-venue">${pub.venue}${pub.authors ? ` · ${pub.authors}` : ""}</span>
     ${pub.summary ? `<p class="pub-summary">${pub.summary}</p>` : ""}
+    ${pub.certificate ? `<a href="${pub.certificate}" target="_blank" rel="noopener" class="pub-certificate">View certificate →</a>` : ""}
   `;
   publicationsList.appendChild(el);
 });

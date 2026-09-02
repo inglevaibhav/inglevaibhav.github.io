@@ -154,6 +154,7 @@ const PUBLICATIONS = [
     authors: "Prabhat Prem, Vijay Bhaskara, Vaibhav Vinod Ingle",
     venue: "14th Structural Engineering Convention (SEC-2024), NIT Tiruchirappalli · Paper ID 808 · Session: 3D Printed Concrete Structures",
     link: null, // accepted & presented (14 Dec 2024) — no DOI/PDF available yet
+    certificate: "assets/certificates/sec-2024-certificate.jpg",
     summary: "Accepted and presented at SEC-2024. Uses Acoustic Emission monitoring to detect the transition of concrete from a printable to a non-printable phase during 3D printing.",
   },
 ];
