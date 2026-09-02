@@ -121,19 +121,19 @@ const EDUCATION = [
 const PUBLICATIONS = [
   {
     title: "3D Printable Concrete Without Chemical Admixtures: Fresh and Hardened Properties",
-    venue: "Structural Concrete, 2023/2024 · 16 citations",
+    venue: "Structural Concrete, 2023/2024",
     link: "https://doi.org/10.1002/suco.202300267",
     summary: "Developed and evaluated 3D printable concrete without chemical admixtures, testing slump, flow, extrudability, buildability, and open time in the fresh state, and compressive/flexural/splitting-tensile strength and modulus of elasticity in the hardened state. Found printed specimens showed higher strength in the longitudinal print direction than downward or lateral — establishing a chemical-admixture-free baseline for later UHPFRC optimization.",
   },
   {
     title: "Acoustic Emission Examination of 3D-Printed UHPC With and Without Coarse Aggregate Under Fresh and Hardened States",
-    venue: "Journal of Building Engineering, 2025 · 9 citations",
+    venue: "Journal of Building Engineering, 2025",
     link: "https://doi.org/10.1016/j.jobe.2025.113491",
     summary: "Characterized plain and fibered 3D-printable UHPC mixes (with/without coarse aggregate) using Acoustic Emission testing through both fresh and hardened states — using AE parameters to detect the transition from printable to non-printable phase, and to characterize anisotropic fracture behavior across notch-to-depth ratios of 0.05, 0.2, and 0.5.",
   },
   {
     title: "Influence of Loading Rate on Flexural Performance and AE Characteristics of UHPC",
-    venue: "Structural Engineering and Mechanics, 89(6), 2024 · 5 citations",
+    venue: "Structural Engineering and Mechanics, 89(6), 2024",
     link: "https://doi.org/10.12989/sem.2024.89.6.617",
     summary: "Examined how loading rate affects flexural strength and AE signatures in UHPC, linking mechanical response to underlying fracture behavior.",
   },
