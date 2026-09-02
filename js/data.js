@@ -202,7 +202,7 @@ const ACTIVITIES = [
   },
   {
     title: "Kiewit Center Fellowship",
-    period: "Sep 2024",
+    period: "Sep 2024 (Fall) — Jun 2025 (Spring)",
     detail: "Awarded the 2024-2025 Kiewit Center Fellowship (School of Civil & Construction Engineering, Oregon State University) for academic excellence and research potential — covers full Year-1 tuition, monthly stipend, and medical insurance.",
   },
   {
