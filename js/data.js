@@ -101,7 +101,7 @@ const EDUCATION = [
   {
     degree: "MS in Civil and Construction Engineering (Research)",
     school: "Oregon State University, Corvallis, OR",
-    period: "Sep 2024 — Expected Sep 2026",
+    period: "Sep 2024 — Fall 2026",
     detail: "Supervisor: Dr. Pavan Akula | Focus: Sustainable construction materials, mix design, and additive construction (3D printing).",
   },
   {
@@ -169,7 +169,7 @@ const SKILLS = {
   Technical: [
     "Cement Chemistry",
     "SCM Systems (Silica Fume, Fly Ash, Limestone Powder, GGBS)",
-    "Pozzolanic Reactivity & Blended Binder Design",
+    "Pozzolanic & Blended Binder Design",
     "Chemical Admixture Science",
     "UHPFRC / UHPC Mix Design",
     "Fresh & Hardened-State Testing (Compressive, Flexural, Fracture Mechanics)",
