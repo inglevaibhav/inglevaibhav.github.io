@@ -111,6 +111,7 @@ ACTIVITIES.forEach((a) => {
     <h3>${a.title}</h3>
     <p class="meta">${a.period}</p>
     <p>${a.detail}</p>
+    ${a.certificate ? `<a href="${a.certificate}" target="_blank" rel="noopener" class="pub-certificate">View certificate →</a>` : ""}
   `;
   activitiesList.appendChild(el);
 });

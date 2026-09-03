@@ -214,6 +214,7 @@ const ACTIVITIES = [
     title: "ASCE Membership",
     period: "Ongoing",
     detail: "Society Student Membership (Member No. 000012639707) and Structural Engineering Institute (SEI) Membership.",
+    certificate: "assets/certificates/asce-membership-certificate.pdf",
   },
 ];
 
