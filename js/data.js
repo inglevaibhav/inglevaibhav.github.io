@@ -29,7 +29,7 @@ const EXPERIENCE = [
     points: [
       "Executing research on soil-cement-based 3D printing (extrusion additive construction), generating data on mix design, fresh-state rheology, and geotechnical performance.",
       "Developing and optimizing soil-binder mixture designs for 3D-printed infrastructure, funded by ERDC.",
-      "Developing soil-binder-biochar and hemp fiber mixture designs and prototyping for improved acoustic/thermal performance of mass timber components using forestry waste.",
+      "Developing soil-binder-biochar and hemp fiber mixture designs and prototyping for improved acoustic/thermal performance of mass timber components using forestry waste, achieving thermal conductivity 3–4 times lower than conventional concrete.",
       "Formulating hypotheses, designing controlled experiments, and independently managing the full research pipeline from material selection to data analysis and scientific writing.",
       "Targeting 1 journal submission from MS thesis; expected graduation September 2026.",
     ],
@@ -79,9 +79,15 @@ const PROJECTS = [
   },
   {
     title: "Soil-Binder-Biochar & Hemp Fiber Mass Timber Components",
-    description: "Prototype design using forestry waste (biochar, hemp fiber) to improve acoustic and thermal performance of mass timber components.",
-    tags: ["Sustainable Materials", "Biochar", "Mass Timber"],
+    description: "Prototype design using forestry waste (biochar, hemp fiber) to improve acoustic and thermal performance of mass timber components, with thermal conductivity 3–4 times lower than concrete.",
+    tags: ["Sustainable Materials", "Biochar", "Hemp Fiber", "Thermal Conductivity", "Mass Timber"],
     link: "#",
+    images: [
+      { src: "assets/images/projects/tdi-1.jpg", caption: "TDI project output: printed panel with a wavy lattice of cells" },
+      { src: "assets/images/projects/tdi-2.jpg", caption: "TDI project output: printed wall segment and lattice section" },
+      { src: "assets/images/projects/tdi-3.jpg", caption: "TDI project output: layered wavy printed wall segment" },
+      { src: "assets/images/projects/tdi-4.jpg", caption: "TDI project output: close-up of the layered printed wall" },
+    ],
   },
   {
     title: "Acoustic Emission Characterization of 3D-Printed UHPFRC",
@@ -178,6 +184,8 @@ const SKILLS = {
     "ASTM / EN / ISO Standards",
     "3D Concrete Printing",
     "Soil-Cement Characterization",
+    "Biochar & Hemp Fiber Composites",
+    "Thermal Conductivity Characterization",
     "XRD, TGA, FTIR (in progress)",
     "AutoCAD",
     "Origin Pro",

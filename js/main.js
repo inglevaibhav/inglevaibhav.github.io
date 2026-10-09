@@ -47,6 +47,23 @@ PROJECTS.forEach((p) => {
     <div class="tags">${p.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div>
     <a href="${p.link}" target="_blank" rel="noopener">View project →</a>
   `;
+  if (p.images && p.images.length) {
+    const strip = document.createElement("div");
+    strip.className = "project-images";
+    p.images.forEach((g) => {
+      const img = document.createElement("img");
+      img.src = g.src;
+      img.alt = g.caption;
+      img.loading = "lazy";
+      img.addEventListener("click", () => {
+        lightboxImg.src = g.src;
+        lightboxCaption.textContent = g.caption;
+        lightbox.classList.add("open");
+      });
+      strip.appendChild(img);
+    });
+    el.insertBefore(strip, el.querySelector(".tags"));
+  }
   projectsList.appendChild(el);
 });
 
