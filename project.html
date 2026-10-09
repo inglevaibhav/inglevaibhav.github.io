@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Project — Vaibhav Vinod Ingle</title>
+<link rel="stylesheet" href="css/style.css?v=20261009b" />
+<script>
+  try { if (localStorage.getItem("theme") === "light") document.documentElement.removeAttribute("data-theme"); } catch (e) {}
+</script>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">Vaibhav Vinod Ingle</a>
+    <div class="nav-actions">
+      <a class="btn btn-small" href="index.html#projects">← All projects</a>
+    </div>
+  </div>
+</header>
+
+<main class="section project-page" id="project-root">
+  <a class="back-link" href="index.html#projects">← Back to portfolio</a>
+  <h1 id="project-title"></h1>
+  <p class="project-desc" id="project-desc"></p>
+  <div class="tags" id="project-tags"></div>
+  <div class="gallery" id="project-gallery"></div>
+</main>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Vaibhav Vinod Ingle</p>
+</footer>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+  <img id="lightbox-img" src="" alt="" />
+  <p id="lightbox-caption"></p>
+</div>
+
+<script src="js/data.js?v=20261009b"></script>
+<script src="js/project.js?v=20261009b"></script>
+</body>
+</html>

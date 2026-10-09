@@ -81,12 +81,13 @@ const PROJECTS = [
     title: "Soil-Binder-Biochar & Hemp Fiber Mass Timber Components",
     description: "Prototype design using forestry waste (biochar, hemp fiber) to improve acoustic and thermal performance of mass timber components, with thermal conductivity 3–4 times lower than concrete.",
     tags: ["Sustainable Materials", "Biochar", "Hemp Fiber", "Thermal Conductivity", "Mass Timber"],
-    link: "#",
+    slug: "biochar-hemp-timber",
+    link: "project.html?p=biochar-hemp-timber",
     images: [
-      { src: "assets/images/projects/tdi-1.jpg", caption: "TDI project output: printed panel with a wavy lattice of cells" },
-      { src: "assets/images/projects/tdi-2.jpg", caption: "TDI project output: printed wall segment and lattice section" },
-      { src: "assets/images/projects/tdi-3.jpg", caption: "TDI project output: layered wavy printed wall segment" },
-      { src: "assets/images/projects/tdi-4.jpg", caption: "TDI project output: close-up of the layered printed wall" },
+      { src: "assets/images/projects/tdi-1.jpg", caption: "TDI project output: 3D-printed panel" },
+      { src: "assets/images/projects/tdi-2.jpg", caption: "TDI project output: 3D-printed wall segments" },
+      { src: "assets/images/projects/tdi-3.jpg", caption: "TDI project output: layered 3D-printed wall segment" },
+      { src: "assets/images/projects/tdi-4.jpg", caption: "TDI project output: close-up of the printed layers" },
     ],
   },
   {

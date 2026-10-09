@@ -183,8 +183,14 @@ a:hover { text-decoration: underline; }
 .card h3 { margin: 0 0 8px; font-size: 1.05rem; }
 .card p { color: var(--text-muted); font-size: 0.92rem; margin-bottom: 12px; }
 
-.project-images { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin-bottom: 12px; }
-.project-images img { width: 100%; height: 90px; object-fit: cover; border-radius: 8px; cursor: pointer; border: 1px solid var(--border); }
+/* Project detail page */
+.project-page .back-link { display: inline-block; margin-bottom: 24px; }
+.project-page h1 { font-size: 2rem; margin: 0 0 12px; }
+.project-page .project-desc { color: var(--text-muted); font-size: 1.05rem; max-width: 720px; }
+.project-page .gallery { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+.project-page .gallery img { height: 220px; }
+.project-figure { margin: 0; }
+.project-figure figcaption { color: var(--text-muted); font-size: 0.85rem; margin-top: 6px; }
 
 .tags { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
 .tag {
