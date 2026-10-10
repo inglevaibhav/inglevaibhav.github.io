@@ -189,6 +189,10 @@ a:hover { text-decoration: underline; }
 .project-page .project-desc { color: var(--text-muted); font-size: 1.05rem; max-width: 720px; }
 .project-page .gallery { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
 .project-page .gallery img { height: 220px; }
+.project-page .project-subhead { font-size: 1.2rem; margin: 32px 0 12px; border: 0; padding: 0; display: block; }
+.project-team-list { list-style: none; padding: 0; margin: 0 0 8px; display: flex; flex-direction: column; gap: 8px; color: var(--text-muted); }
+.project-team-list strong { color: var(--text); }
+.card .project-team { font-size: 0.85rem; }
 .project-figure { margin: 0; }
 .project-figure figcaption { color: var(--text-muted); font-size: 0.85rem; margin-top: 6px; }
 

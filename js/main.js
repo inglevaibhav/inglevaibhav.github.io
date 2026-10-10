@@ -44,6 +44,7 @@ PROJECTS.forEach((p) => {
   el.innerHTML = `
     <h3>${p.title}</h3>
     <p>${p.description}</p>
+    ${p.team ? `<p class="project-team"><strong>Team:</strong> ${p.team.map((m) => m.name + (m.note ? ` (${m.note})` : "")).join(", ")}</p>` : ""}
     <div class="tags">${p.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div>
     <a href="${p.link}"${p.slug ? "" : ' target="_blank" rel="noopener"'}>View project →</a>
   `;

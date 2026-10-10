@@ -81,6 +81,11 @@ const PROJECTS = [
     title: "Prototype Design and Additive Manufacturing for Improved Acoustic and Thermal Performance of Mass Timber Components Using Forestry Waste Product",
     description: "Prototype design and additive manufacturing using forestry waste (biochar, hemp fiber) to improve acoustic and thermal performance of mass timber components, including cross-laminated timber (CLT), with thermal conductivity 3–4 times lower than concrete.",
     tags: ["Sustainable Materials", "Biochar", "Hemp Fiber", "Thermal Conductivity", "Mass Timber", "Cross-Laminated Timber (CLT)", "Additive Manufacturing"],
+    team: [
+      { name: "Dr. Pavan Akula", note: "Lead PI", role: "Assistant Professor", org: "Oregon State University, USA" },
+      { name: "Dr. Dylan Wood", role: "Assistant Professor", org: "University of Oregon, USA" },
+      { name: "Dr. Islam Hafez", role: "Assistant Professor", org: "Oregon State University, USA" },
+    ],
     slug: "biochar-hemp-timber",
     link: "project.html?p=biochar-hemp-timber",
     images: [

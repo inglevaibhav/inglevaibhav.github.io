@@ -26,6 +26,17 @@ if (!project) {
     span.textContent = t;
     tagsEl.appendChild(span);
   });
+  if (project.team && project.team.length) {
+    const teamEl = document.getElementById("project-team");
+    project.team.forEach((m) => {
+      const li = document.createElement("li");
+      const name = document.createElement("strong");
+      name.textContent = m.name + (m.note ? ` (${m.note})` : "");
+      li.append(name, document.createTextNode(` — ${m.role}, ${m.org}`));
+      teamEl.appendChild(li);
+    });
+    document.getElementById("project-team-section").hidden = false;
+  }
   (project.images || []).forEach((g) => {
     const fig = document.createElement("figure");
     fig.className = "project-figure";
