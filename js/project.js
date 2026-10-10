@@ -30,9 +30,17 @@ if (!project) {
     const teamEl = document.getElementById("project-team");
     project.team.forEach((m) => {
       const li = document.createElement("li");
+      const link = (href, text) => {
+        const a = document.createElement("a");
+        a.href = href;
+        a.target = "_blank";
+        a.rel = "noopener";
+        a.textContent = text;
+        return a;
+      };
       const name = document.createElement("strong");
-      name.textContent = m.name + (m.note ? ` (${m.note})` : "");
-      li.append(name, document.createTextNode(` — ${m.role}, ${m.org}`));
+      name.appendChild(link(m.url, m.name));
+      li.append(name, document.createTextNode((m.note ? ` (${m.note})` : "") + ` — ${m.role}, `), link(m.deptUrl, m.dept), document.createTextNode(`, ${m.org}`));
       teamEl.appendChild(li);
     });
     document.getElementById("project-team-section").hidden = false;

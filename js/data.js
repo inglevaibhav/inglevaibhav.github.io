@@ -82,9 +82,24 @@ const PROJECTS = [
     description: "Prototype design and additive manufacturing using forestry waste (biochar, hemp fiber) to improve acoustic and thermal performance of mass timber components, including cross-laminated timber (CLT), with thermal conductivity 3–4 times lower than concrete.",
     tags: ["Sustainable Materials", "Biochar", "Hemp Fiber", "Thermal Conductivity", "Mass Timber", "Cross-Laminated Timber (CLT)", "Additive Manufacturing"],
     team: [
-      { name: "Dr. Pavan Akula", note: "Lead PI", role: "Assistant Professor", org: "Oregon State University, USA" },
-      { name: "Dr. Dylan Wood", role: "Assistant Professor", org: "University of Oregon, USA" },
-      { name: "Dr. Islam Hafez", role: "Assistant Professor", org: "Oregon State University, USA" },
+      {
+        name: "Dr. Pavan Akula", note: "Lead PI", role: "Assistant Professor",
+        url: "https://engineering.oregonstate.edu/about/people/pavan-akula",
+        dept: "School of Civil and Construction Engineering", deptUrl: "https://engineering.oregonstate.edu/CCE",
+        org: "Oregon State University, USA",
+      },
+      {
+        name: "Dr. Dylan Wood", role: "Assistant Professor",
+        url: "https://archenvironment.uoregon.edu/directory/architecture-faculty/all/dmwood",
+        dept: "Department of Architecture, School of Architecture & Environment", deptUrl: "https://archenvironment.uoregon.edu/architecture",
+        org: "University of Oregon, USA",
+      },
+      {
+        name: "Dr. Islam Hafez", role: "Assistant Professor",
+        url: "https://directory.forestry.oregonstate.edu/people/hafez-islam",
+        dept: "Department of Wood Science & Engineering, College of Forestry", deptUrl: "https://www.forestry.oregonstate.edu/about/academic-departments/wse",
+        org: "Oregon State University, USA",
+      },
     ],
     slug: "biochar-hemp-timber",
     link: "project.html?p=biochar-hemp-timber",
