@@ -29,7 +29,7 @@ const EXPERIENCE = [
     points: [
       "Executing research on soil-cement-based 3D printing (extrusion additive construction), generating data on mix design, fresh-state rheology, and geotechnical performance.",
       "Developing and optimizing soil-binder mixture designs for 3D-printed infrastructure, funded by ERDC.",
-      "Developing soil-binder-biochar and hemp fiber mixture designs and prototyping for improved acoustic/thermal performance of mass timber components, including cross-laminated timber (CLT), using forestry waste, achieving thermal conductivity 3–4 times lower than conventional concrete.",
+      "Developing soil-binder-biochar and hemp fiber mixture designs and prototyping for improved acoustic/thermal performance of mass timber components, including cross-laminated timber (CLT), using forestry waste.",
       "Formulating hypotheses, designing controlled experiments, and independently managing the full research pipeline from material selection to data analysis and scientific writing.",
       "Targeting 1 journal submission from MS thesis; expected graduation September 2026.",
     ],
@@ -73,7 +73,7 @@ const EXPERIENCE = [
 const PROJECTS = [
   {
     title: "Prototype Design and Additive Manufacturing for Improved Acoustic and Thermal Performance of Mass Timber Components Using Forestry Waste Product",
-    description: "Prototype design and additive manufacturing using forestry waste (biochar, hemp fiber) to improve acoustic and thermal performance of mass timber components, including cross-laminated timber (CLT), with thermal conductivity 3–4 times lower than concrete.",
+    description: "Prototype design and additive manufacturing using forestry waste (biochar, hemp fiber) to improve acoustic and thermal performance of mass timber components, including cross-laminated timber (CLT).",
     tags: ["Sustainable Materials", "Biochar", "Hemp Fiber", "Thermal Conductivity", "Mass Timber", "Cross-Laminated Timber (CLT)", "Additive Manufacturing"],
     team: [
       {
