@@ -5,7 +5,7 @@
 
 const SITE = {
   name: "Vaibhav Vinod Ingle",
-  tagline: "Civil Engineer & Researcher — advanced cementitious composites, supplementary cementitious materials (SCMs), sustainable construction materials, ultra-high-performance fiber-reinforced concrete (UHPFRC), biochar- and hemp fiber-reinforced composites, soil–cement systems, additive manufacturing of concrete (3D concrete printing), and Acoustic Emission Technique (AET)",
+  tagline: "Civil Engineer & Researcher — advanced cementitious composites, supplementary cementitious materials (SCMs), sustainable construction materials, ultra-high-performance fiber-reinforced concrete (UHPFRC), biochar- and hemp fiber-reinforced composites, soil–cement systems, additive manufacturing of concrete (3D concrete printing), thermal performance of 3D-printable mixes, and Acoustic Emission Technique (AET)",
   email: "inglevaibhav02@gmail.com",
   universityEmail: "inglev@oregonstate.edu",
   phone: "+1 (541) 908-4172",
@@ -16,7 +16,7 @@ const SITE = {
   photo: "assets/images/profile.jpg",
   about: [
     "Civil Engineer with an M.S. in Civil and Construction Engineering (Research) from Oregon State University, USA (expected September 2026), an M.Tech. in Structural Engineering, and a B.E. in Civil Engineering, complemented by over two years of research and development experience in advanced construction materials and structural systems at CSIR-Structural Engineering Research Centre, India.",
-    "Expertise includes the design, characterization, and performance evaluation of cementitious materials, supplementary cementitious materials (SCMs), ultra-high-performance fiber-reinforced concrete (UHPFRC), steel and natural fiber-reinforced composites, biochar-modified materials, soil–cement systems, and 3D concrete printing. Experienced in experimental testing and material characterization following ASTM, EN, and ISO standards, with proficiency in non-destructive testing (NDT) techniques and data-driven performance assessment.",
+    "Expertise includes the design, characterization, and performance evaluation of cementitious materials, supplementary cementitious materials (SCMs), ultra-high-performance fiber-reinforced concrete (UHPFRC), steel and natural fiber-reinforced composites, biochar-modified materials, soil–cement systems, 3D concrete printing, and thermal performance characterization of 3D-printable mixes. Experienced in experimental testing and material characterization following ASTM, EN, and ISO standards, with proficiency in non-destructive testing (NDT) techniques and data-driven performance assessment.",
     "Passionate about translating research into practical engineering solutions that advance resilient, sustainable, and innovative construction and infrastructure.",
   ],
 };
@@ -29,7 +29,7 @@ const EXPERIENCE = [
     points: [
       "Executing research on soil-cement-based 3D printing (extrusion additive construction), generating data on mix design, fresh-state rheology, and geotechnical performance.",
       "Developing and optimizing soil-binder mixture designs for 3D-printed infrastructure, funded by ERDC.",
-      "Developing soil-binder-biochar and hemp fiber mixture designs and prototyping for improved acoustic/thermal performance of mass timber components, including cross-laminated timber (CLT), using forestry waste.",
+      "Developing soil-binder-biochar and hemp fiber mixture designs and prototyping for improved acoustic/thermal performance of mass timber components, including cross-laminated timber (CLT), using forestry waste, and characterizing the thermal performance of the 3D-printable mixes.",
       "Formulating hypotheses, designing controlled experiments, and independently managing the full research pipeline from material selection to data analysis and scientific writing.",
       "Targeting 1 journal submission from MS thesis; expected graduation September 2026.",
     ],
@@ -73,8 +73,8 @@ const EXPERIENCE = [
 const PROJECTS = [
   {
     title: "Prototype Design and Additive Manufacturing for Improved Acoustic and Thermal Performance of Mass Timber Components Using Forestry Waste Product",
-    description: "Prototype design and additive manufacturing using forestry waste (biochar, hemp fiber) to improve acoustic and thermal performance of mass timber components, including cross-laminated timber (CLT).",
-    tags: ["Sustainable Materials", "Biochar", "Hemp Fiber", "Thermal Conductivity", "Mass Timber", "Cross-Laminated Timber (CLT)", "Additive Manufacturing"],
+    description: "Prototype design and additive manufacturing using forestry waste (biochar, hemp fiber) to improve acoustic and thermal performance of mass timber components, including cross-laminated timber (CLT), with thermal performance characterization of the 3D-printable mixes.",
+    tags: ["Sustainable Materials", "Biochar", "Hemp Fiber", "Thermal Performance", "Thermal Conductivity", "Mass Timber", "Cross-Laminated Timber (CLT)", "Additive Manufacturing"],
     team: [
       {
         name: "Dr. Pavan Akula", note: "Lead PI", role: "Assistant Professor",
@@ -206,6 +206,7 @@ const SKILLS = {
     "3D Concrete Printing",
     "Soil-Cement Characterization",
     "Biochar & Hemp Fiber Composites",
+    "Thermal Performance Characterization",
     "Thermal Conductivity Characterization",
     "XRD, TGA, FTIR (in progress)",
     "AutoCAD",
