@@ -72,12 +72,6 @@ const EXPERIENCE = [
 
 const PROJECTS = [
   {
-    title: "Soil-Cement 3D Printing for Infrastructure",
-    description: "ERDC-funded research developing and optimizing soil-binder mixture designs for extrusion-based additive construction of infrastructure.",
-    tags: ["3D Printing", "Soil-Cement", "Mix Design"],
-    link: "#",
-  },
-  {
     title: "Prototype Design and Additive Manufacturing for Improved Acoustic and Thermal Performance of Mass Timber Components Using Forestry Waste Product",
     description: "Prototype design and additive manufacturing using forestry waste (biochar, hemp fiber) to improve acoustic and thermal performance of mass timber components, including cross-laminated timber (CLT), with thermal conductivity 3–4 times lower than concrete.",
     tags: ["Sustainable Materials", "Biochar", "Hemp Fiber", "Thermal Conductivity", "Mass Timber", "Cross-Laminated Timber (CLT)", "Additive Manufacturing"],
@@ -121,6 +115,12 @@ const PROJECTS = [
     description: "Baseline characterization of fresh and hardened properties of admixture-free printable concrete, forming the foundation for later superplasticizer optimization work.",
     tags: ["Concrete", "Printable Mix Design"],
     link: "https://doi.org/10.1002/suco.202300267",
+  },
+  {
+    title: "Soil-Cement 3D Printing for Infrastructure",
+    description: "ERDC-funded research developing and optimizing soil-binder mixture designs for extrusion-based additive construction of infrastructure.",
+    tags: ["3D Printing", "Soil-Cement", "Mix Design"],
+    link: "#",
   },
 ];
 
