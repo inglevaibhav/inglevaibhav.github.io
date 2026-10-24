@@ -47,6 +47,7 @@ PROJECTS.forEach((p) => {
     ${p.team ? `<p class="project-team"><strong>Team:</strong> ${p.team.map((m) => `<a href="${m.url}" target="_blank" rel="noopener">${m.name}</a>${m.note ? ` (${m.note})` : ""}`).join(", ")}</p>` : ""}
     <div class="tags">${p.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div>
     <a href="${p.link}"${p.slug ? "" : ' target="_blank" rel="noopener"'}>View project →</a>
+    ${p.external ? `<a class="card-external" href="${p.external.url}" target="_blank" rel="noopener">${p.external.label} ↗</a>` : ""}
   `;
   projectsList.appendChild(el);
 });

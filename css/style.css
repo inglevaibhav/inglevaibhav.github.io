@@ -193,6 +193,8 @@ a:hover { text-decoration: underline; }
 .project-team-list { list-style: none; padding: 0; margin: 0 0 8px; display: flex; flex-direction: column; gap: 8px; color: var(--text-muted); }
 .project-team-list strong { color: var(--text); }
 .card .project-team { font-size: 0.85rem; }
+.card .card-external { display: block; margin-top: 8px; font-size: 0.9rem; }
+.project-page .project-external { margin: 16px 0 0; }
 .project-figure { margin: 0; }
 .project-figure figcaption { color: var(--text-muted); font-size: 0.85rem; margin-top: 6px; }
 

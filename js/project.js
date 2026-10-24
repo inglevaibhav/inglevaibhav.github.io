@@ -26,6 +26,16 @@ if (!project) {
     span.textContent = t;
     tagsEl.appendChild(span);
   });
+  if (project.external) {
+    const ext = document.getElementById("project-external");
+    const a = document.createElement("a");
+    a.href = project.external.url;
+    a.target = "_blank";
+    a.rel = "noopener";
+    a.textContent = `${project.external.label} ↗`;
+    ext.appendChild(a);
+    ext.hidden = false;
+  }
   if (project.team && project.team.length) {
     const teamEl = document.getElementById("project-team");
     project.team.forEach((m) => {

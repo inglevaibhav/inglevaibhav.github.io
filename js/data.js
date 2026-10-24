@@ -95,6 +95,10 @@ const PROJECTS = [
         org: "Oregon State University, USA",
       },
     ],
+    external: {
+      label: "TallWood Design Institute project page",
+      url: "https://tallwoodinstitute.org/research/manufacturing-supply-chain/additive-manufacturing-prototype-for-improved-performance-of-mass-timber-using-forest-residues/",
+    },
     slug: "biochar-hemp-timber",
     link: "project.html?p=biochar-hemp-timber",
     images: [
